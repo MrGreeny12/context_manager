@@ -24,7 +24,7 @@ class Open_cm:
     exit = datetime.now()
     print(exit)
     self.differ = exit - self.enter
-    print(f'Скорость работы менеджера контекста = {self.differ} мс')
+    print(f'Скорость открытия файла = {self.differ} мс')
     self.file.close()
 
 
